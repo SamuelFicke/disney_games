@@ -149,7 +149,7 @@ if __name__ == "__main__":
   res_pic_width  = pic_width
   res_pic_height = pic_height
   root = Tk()
-  root.title("Harry Potter Scoreboard")
+  root.title("Disney Games Scoreboard")
   root.configure(bg="black")
   inferno_pic   = Image.open("team_pics/inferno.jpg")
   inferno_pic   = inferno_pic.resize((res_pic_width,res_pic_height),Image.Resampling.LANCZOS)
